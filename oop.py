@@ -1,4 +1,4 @@
-# #1: Define a Vehicle class with the following attributes and methods: 
+# #1: Define a Vehicle class with the following attributes and methods:
 # - `vehicle_type` 'str'
 # - `wheel_count` 'int'
 # - `name` 'str'
@@ -19,6 +19,15 @@
 # attributes. The methods should be defined on the class.
 
 
+class vehicle:
+    def __init__(self, vehicle, name, cost, colors, mpg):
+        self.vehicle_type = str
+        self.vehicle_count = int
+        self.name = str
+        self.cost = int
+        self.colors = str
+        self.vehicle_brand = str
+
 
 # #2: Create a Motorcycle class that inherits from the Vehicle class and has the
 # following attributes and methods:
@@ -27,17 +36,14 @@
 #   False
 
 
-
 # #3: Define a Car class with the following attributes and methods:
 # - `wheel_drive` 'str', defaults to "no wheels!"
 # - `can_drive` that should return 'Vrrooooom Vroooom'
 
 
-
 # #4: Define a Truck class with the following attributes and methods:
 # - `wheel_drive` 'str', defaults to "no wheels!"
 # - `rev_engine` that should return 'revvvvvreeeev'
-
 
 
 # Commit when you finish working on these questions!
