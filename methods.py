@@ -9,12 +9,15 @@
 
 def num_list_with_arg(num):
     arr = []
-    i = 0
-    while num <= i:
-        i += 1
+    i = 1
+    while i < num:
         arr.append(i)
+        i += 1
+    print(arr)
     return arr
 
+
+num_list_with_arg(5)
 
 # #2: Modify the has_ruby_exp method below so that it returns a SORTED list of
 # all instructors who have Ruby experience (i.e. where "ruby" == True)

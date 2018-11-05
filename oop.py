@@ -27,6 +27,11 @@ class vehicle:
         self.cost = int
         self.colors = str
         self.vehicle_brand = str
+        self.mpg = {
+            mpg.city: int,
+            mpg.highway: int,
+            mpg.combined: int,
+        }
 
 
 # #2: Create a Motorcycle class that inherits from the Vehicle class and has the
@@ -44,6 +49,8 @@ class vehicle:
 # #4: Define a Truck class with the following attributes and methods:
 # - `wheel_drive` 'str', defaults to "no wheels!"
 # - `rev_engine` that should return 'revvvvvreeeev'
+class Truck:
+    def __init__(self, wheel_count="no wheels!")
 
 
 # Commit when you finish working on these questions!
